@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: watson-tile-processor
+  host: watson-tile-processor
+  disk_quota: 1024M
