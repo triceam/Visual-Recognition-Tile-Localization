@@ -1,4 +1,4 @@
-# Node.js Starter Overview
+# Visual-Recognition-Tile-Localization
 
 The *Visual-Recognition-Tile-Localization* application leverages the Watson Visual Recognition service with image pre-processing techniques to deliver localized image classification.  For example, "show me where there is rust on the bridge".
 
@@ -49,7 +49,7 @@ This data is collected from the `VCAP_APPLICATION` environment variable in IBM B
 
 ### Disabling Deployment Tracking
 
-Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the `server.js` main server file.
+Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the `app.js` main server file.
 
 [deploy_track_url]: https://github.com/cloudant-labs/deployment-tracker
 [install_node]: https://nodejs.org/en/download/
