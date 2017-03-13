@@ -13,6 +13,7 @@ You can view a demonstration of this application in action in the video here:
 * [Node.js on IBM Bluemix](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/)
 * [Watson Visual Recognition API Reference](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/)
 * [Watson Visual Recognition Custom Classifiers](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/#classifiers)
+* [Best Practices Creating Custom Classifiers] (https://www.ibm.com/blogs/bluemix/2016/10/watson-visual-recognition-training-best-practices/)
 
 
 ## Run the app locally
