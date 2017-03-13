@@ -8,7 +8,11 @@ You can view a demonstration of this application in action in the video here:
 
 [![Video showing sample application](https://img.youtube.com/vi/wEs1imQmk-Y/0.jpg)](https://www.youtube.com/watch?v=wEs1imQmk-Y)
 
-## Reference/Docs
+### Build status
+
+![Bluemix Deployments](https://deployment-tracker.mybluemix.net/stats/08049cff3cd80ac8b203d9068a36cb53/badge.svg)
+
+### Reference/Docs
 
 * [Node.js on IBM Bluemix](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/)
 * [Watson Visual Recognition API Reference](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/)
@@ -16,7 +20,7 @@ You can view a demonstration of this application in action in the video here:
 * [Best Practices Creating Custom Classifiers] (https://www.ibm.com/blogs/bluemix/2016/10/watson-visual-recognition-training-best-practices/)
 
 
-## Run the app locally
+### Run the app locally
 
 1. [Install Node.js][install_node]
 2. Download the code
@@ -26,11 +30,9 @@ You can view a demonstration of this application in action in the video here:
 6. Run `npm start` to start the app
 7. Access the running app in a browser at http://localhost:6001
 
-## Run on IBM Bluemix
+### Run on IBM Bluemix
 
-* The app will also run as-is (with Watson key and classifier id) in the default [Node.js buildpack on Bluemix][node_bluemix].  Once you have modified `app.js` and updated the `WATSON_KEY` and `WATSON_CLASSIFIER` values, then you can deploy using the [Bluemix CLI][bluemix_cli] `push` command. 
-
-
+The app will also run as-is (with Watson key and classifier id) in the default [Node.js buildpack on Bluemix][node_bluemix].  Once you have modified `app.js` and updated the `WATSON_KEY` and `WATSON_CLASSIFIER` values, then you can deploy using the [Bluemix CLI][bluemix_cli] `push` command. 
 
 ### Privacy Notice
 
