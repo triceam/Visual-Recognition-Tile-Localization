@@ -17,7 +17,7 @@ You can view a demonstration of this application in action in the video here:
 
 ## Run the app locally
 
-1. [Install Node.js][]
+1. [Install Node.js][install_node]
 2. Download the code
 3. Edit `app.js` and add your Watson Visual Recognition Key and Customer Classifier ID
 4. cd into the app directory
@@ -25,4 +25,28 @@ You can view a demonstration of this application in action in the video here:
 6. Run `npm start` to start the app
 7. Access the running app in a browser at http://localhost:6001
 
-[Install Node.js]: https://nodejs.org/en/download/
+## Run on IBM Bluemix
+
+* The app will also run as-is (with Watson key and classifier id) in the default [Node.js buildpack on Bluemix][node_bluemix].  Once you have modified `app.js` and updated the `WATSON_KEY` and `WATSON_CLASSIFIER` values, then you can deploy using the [Bluemix CLI][bluemix_cli] `push` command. 
+
+
+
+### Privacy Notice
+
+The sample web application includes code to track deployments to Bluemix and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker] [deploy_track_url] service on each deployment:
+
+* Application Name (`application_name`)
+* Space ID (`space_id`)
+* Application Version (`application_version`)
+* Application URIs (`application_uris`)
+
+This data is collected from the `VCAP_APPLICATION` environment variable in IBM Bluemix and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Bluemix. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
+
+### Disabling Deployment Tracking
+
+Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the `server.js` main server file.
+
+[deploy_track_url]: https://github.com/cloudant-labs/deployment-tracker
+[install_node]: https://nodejs.org/en/download/
+[node_bluemix]: https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/
+[bluemix_cli]: https://console.ng.bluemix.net/docs/cli/reference/bluemix_cli/index.html
