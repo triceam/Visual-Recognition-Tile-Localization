@@ -1,3 +1,7 @@
+# ⚠️ This repo has been forked/copied here for archive purposes.  The Visual Recognition service on IBM Cloud is no longer available, and will no longer work as-is. ⚠️ 
+
+
+
 # Visual-Recognition-Tile-Localization
 
 The *Visual-Recognition-Tile-Localization* application leverages the Watson Visual Recognition service with image pre-processing techniques to deliver localized image classification.  For example, "show me where there is rust on the bridge".
